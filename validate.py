@@ -75,6 +75,7 @@ def validar_grupo_sanguineo(grupo_sanguineo: str, mensaje_error: str) -> str:
     grupos_sanguineos_posibles = ("A+", "A-", "B+", "B-", "AB+", "AB-", "0+", "0-")
     while grupo_sanguineo not in grupos_sanguineos_posibles:
         grupo_sanguineo = input(mensaje_error)
+        grupo_sanguineo = grupo_sanguineo.upper()
         
     return grupo_sanguineo
 

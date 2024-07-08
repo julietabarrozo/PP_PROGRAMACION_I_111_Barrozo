@@ -281,3 +281,4 @@ def crear_matriz(lista_pacientes: list[dict]) -> list[list]:
         matriz.append([tipo_sanguineo, puede_donarle_sangre_a, puede_recibir_sangre_de])
     
     return matriz
+
