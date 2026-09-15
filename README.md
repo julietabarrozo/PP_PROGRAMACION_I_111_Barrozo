@@ -1,6 +1,6 @@
 # 🏥 Patient Management System
 
-A modular Python console application developed for Programming Subject at University. The system manages patient registration, input validation, and data persistence for a private clinic.
+A modular Python console application developed for a programming subject at University. The system manages patient registration, input validation, and data persistence for a private clinic.
 
 > 🌐 **Language Note:** Documentation is written in English, while the application interface, console prompts, and CSV data are in Spanish.
 
