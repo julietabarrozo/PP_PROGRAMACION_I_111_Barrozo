@@ -1,29 +1,26 @@
-# 🏥 Sistema de Gestión de Pacientes
+# 🏥 Patient Management System
 
-Aplicación de consola modular desarrollada en **Python** para la materia **Programación I** como proyecto de evaluación parcial. El sistema administra el registro, validación y persistencia de datos de pacientes en una clínica privada.
+A modular Python console application developed for Programming Subject at University. The system manages patient registration, input validation, and data persistence for a private clinic.
 
-## 👤 Datos del Alumno
-- **Nombre:** Julieta Barrozo
-- **Materia:** Programación I
+> 🌐 **Language Note:** Documentation is written in English, while the application interface, console prompts, and CSV data are in Spanish.
 
 ---
 
-## 📌 Consigna General
-Diseñar e implementar un programa interactivo por consola que gestione la administración de pacientes de una clínica privada, garantizando la validación de entradas, la persistencia de datos en archivos y una arquitectura modular limpia.
+## 📌 Project Overview
+Design and implement an interactive console application to manage patient records in a private clinic, ensuring robust input validation, file data persistence, and a clean modular architecture.
 
 ---
 
-## 🛠️ Tecnologías y Arquitectura
+## 🛠️ Tech Stack & Architecture
 
-- **Lenguaje:** Python
-- **Persistencia:** Archivos CSV
+* **Language:** Python
+* **Data Persistence:** CSV Files
+* **Architecture:** Modular design separating UI logic, business rules, and data handling
 
 ---
 
-## 🚀 Funcionalidades Principales
-- ➕ **Gestión de Pacientes:** Alta, modificación, baja y consulta de historias clínicas.
-- 📂 **Persistencia de Datos:** Carga y guardado automático en formato CSV (`Pacientes.csv`).
-- ✔️ **Validación de Entradas:** Control y manejo de excepciones en la captura de datos vía consola (`validate.py`).
-- 🧩 **Diseño Modular:** Separación clara entre la lógica de interfaz, reglas de negocio y manejo de datos.
-
-
+## 🚀 Key Features
+* ➕ **Patient Management:** Full CRUD functionality (Create, Read, Update, Delete) for patient medical records.
+* 📂 **Data Persistence:** Automatic loading and saving in CSV format (`Pacientes.csv`).
+* ✔️ **Input Validation:** Exception handling and robust input validation via custom modules (`validate.py`).
+* 🧩 **Modular Design:** Clear separation of concerns for clean and maintainable code.
